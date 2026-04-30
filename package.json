@@ -1,0 +1,19 @@
+{
+  "name": "vila-alegre-scraper",
+  "version": "1.0.0",
+  "description": "Scraper para o site Vila Alegre usando Playwright",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-cron": "^3.0.3",
+    "playwright": "^1.42.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
